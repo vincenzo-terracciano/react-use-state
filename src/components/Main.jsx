@@ -47,6 +47,10 @@ export default function Main() {
                     ))
                 }
             </div>
+            <div className="text">
+                <h2>{isOpen.name}</h2>
+                <p>{isOpen.description}</p>
+            </div>
         </div>
     )
 }
