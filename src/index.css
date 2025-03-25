@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+h1 {
+  padding: 1rem;
+}
+
+/* Main */
+.container {
+  width: 80%;
+  margin: auto;
+  padding-top: 2rem;
+
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+    .btn {
+      padding: 0.75rem;
+      background-color: rgb(15, 134, 253);
+      color: white;
+      border-radius: 0.5rem;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .active {
+      background-color: rgb(230, 230, 0);
+      color: black;
+    }
+  }
+
+  .text {
+    background-color: white;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+    p {
+      margin-top: 1rem;
+    }
+  }
+}

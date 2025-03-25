@@ -48,7 +48,7 @@ export default function Main() {
                 }
             </div>
             <div className="text">
-                <h2>{isOpen.name}</h2>
+                <h3>{isOpen.name}</h3>
                 <p>{isOpen.description}</p>
             </div>
         </div>
